@@ -1,0 +1,25 @@
+				<eFinanceira xmlns="http://www.eFinanceira.gov.br/schemas/evtCadDeclarante/v1_2_0">
+					<evtCadDeclarante id="ID000000000000000003">
+						<ideEvento>
+							<indRetificacao>2</indRetificacao>
+							<nrRecibo>40154-05-001-1605-40154</nrRecibo>
+							<tpAmb>1</tpAmb>
+							<aplicEmi>1</aplicEmi>
+							<verAplic>00000000000000000001</verAplic>
+						</ideEvento>
+						<ideDeclarante>
+							<cnpjDeclarante>33657248000189</cnpjDeclarante>
+						</ideDeclarante>
+						<infoCadastro>
+							<nome>Banco Nacional de Desenvolvimento Economico e Social</nome>
+							<enderecoLivre>Avenida Republica do Chile 100</enderecoLivre>
+							<municipio>3304557</municipio>
+							<UF>RJ</UF>
+							<CEP>20031917</CEP>
+							<Pais>BR</Pais>
+							<paisResid>
+								<Pais>BR</Pais>
+							</paisResid>
+						</infoCadastro>
+					</evtCadDeclarante>
+				</eFinanceira>

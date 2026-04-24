@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploCriptografiaLoteSincrono", "LoteSincrono\ExemploCriptografiaLoteSincrono.csproj", "{794A2D28-FF7F-494E-90D6-348C14029344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploCriptografiaLoteAssincrono", "LoteAssincrono\ExemploCriptografiaLoteAssincrono.csproj", "{BC2CBE34-98F1-AF42-42F4-02751531F4A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{794A2D28-FF7F-494E-90D6-348C14029344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794A2D28-FF7F-494E-90D6-348C14029344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794A2D28-FF7F-494E-90D6-348C14029344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794A2D28-FF7F-494E-90D6-348C14029344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC2CBE34-98F1-AF42-42F4-02751531F4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2CBE34-98F1-AF42-42F4-02751531F4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2CBE34-98F1-AF42-42F4-02751531F4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2CBE34-98F1-AF42-42F4-02751531F4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {178F0F3C-DAC7-41C4-8A44-A7C0736907A9}
+	EndGlobalSection
+EndGlobal

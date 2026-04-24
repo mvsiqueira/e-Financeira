@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<eFinanceira xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.eFinanceira.gov.br/schemas/envioLoteEventosAssincrono/v1_0_0">
+  <loteEventosAssincrono>
+    <cnpjDeclarante>00604446000125</cnpjDeclarante>
+    <eventos>
+      <evento id="ID0">
+        <eFinanceira xmlns="http://www.eFinanceira.gov.br/schemas/evtCadDeclarante/v1_2_0">
+          <evtCadDeclarante id="ID000000000000000001">
+            <ideEvento>
+              <indRetificacao>1</indRetificacao>
+              <tpAmb>1</tpAmb>
+              <aplicEmi>2</aplicEmi>
+              <verAplic>00000000000000000001</verAplic>
+            </ideEvento>
+            <ideDeclarante>
+              <cnpjDeclarante>00604446000125</cnpjDeclarante>
+            </ideDeclarante>
+            <infoCadastro>
+              <GIIN>98Q96B.00000.LE.250</GIIN>
+              <CategoriaDeclarante>FATCA601</CategoriaDeclarante>
+              <nome>SURJ</nome>
+              <enderecoLivre>Endereço da Empresa Declarante 01</enderecoLivre>
+              <municipio>3304557</municipio>
+              <UF>RJ</UF>
+              <CEP>30575000</CEP>
+              <Pais>BR</Pais>
+              <paisResid>
+                <Pais>BR</Pais>
+              </paisResid>
+            </infoCadastro>
+          </evtCadDeclarante>
+          <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <SignedInfo>
+              <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+              <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+              <Reference URI="#ID000000000000000001">
+                <Transforms>
+                  <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                  <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                <DigestValue>2IaMIyKQVgmHJ1dvX8E5e5STY5CP7+I8ttPBOut+CuU=</DigestValue>
+              </Reference>
+            </SignedInfo>
+            <SignatureValue>FU4/90ItCBwnLnEq9fPmgccfveIsKeiIMbzQW36HpfhCEYnsD/hcGKSbQsI+Df6rHzwoz7t+Km0AD9G9Jh9gC3di0pcRhVI/bmikdXJDdn9NzAHae2WT1V46oCDfvFSCfwdh7zFfJ8UPdFBiXDJTUXN+87pB2QPRLnCwCOmpE0X1hqeadaBxubQPcWcrZ5P3M1ALodbbefzveeMkEZrOr2zRQTqMX/bIs6fS13FZYqDsniyAOnuPICDoFy7pOWtHwUeIF8yc7INaZpzVSnnJKzKTEFwrrxGyry5bxFxGXnvhjf+LqUe9dWwqvYFA8HFIlCz9oQefsDd7S3ukuG/thw==</SignatureValue>
+            <KeyInfo>
+              <X509Data>
+                <X509Certificate>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</X509Certificate>
+              </X509Data>
+            </KeyInfo>
+          </Signature>
+        </eFinanceira>
+      </evento>
+    </eventos>
+  </loteEventosAssincrono>
+</eFinanceira>

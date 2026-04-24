@@ -1,0 +1,8 @@
+Criptografia:
+cd C:\Users\mvsiq\Downloads\BNDES\e-financeira\ExemploCriptografiaLoteEFinanceira\LoteAssincrono\bin\Debug\net8.0
+
+HOM:
+.\ExemploCriptografiaLoteAssincrono.exe C:\Users\mvsiq\Downloads\BNDES\e-financeira\0_evtCadDeclarante_lote-ASSINADO.xml cc242988a739caa7757b29e2a900ae35519cdb39 C:\Users\mvsiq\Downloads\BNDES\e-financeira\certificados\pre-efinanceira-producao-restrita-2025-2026.cer
+
+PRD:
+.\ExemploCriptografiaLoteAssincrono.exe C:\Users\mvsiq\Downloads\BNDES\e-financeira\0_evtCadDeclarante_lote-ASSINADO.xml 33ff3179bda29a7e25daa52631defc19d1105b2d C:\Users\mvsiq\Downloads\BNDES\e-financeira\certificados\efinanceira-producao-2025-2026.cer
