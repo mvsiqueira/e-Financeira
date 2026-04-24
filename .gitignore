@@ -1,0 +1,15 @@
+# Build artifacts
+bin/
+obj/
+
+# Visual Studio / Rider
+.vs/
+*.user
+*.suo
+
+# Local .NET CLI cache used in this workspace
+.dotnet/
+
+# OS noise
+Thumbs.db
+Desktop.ini

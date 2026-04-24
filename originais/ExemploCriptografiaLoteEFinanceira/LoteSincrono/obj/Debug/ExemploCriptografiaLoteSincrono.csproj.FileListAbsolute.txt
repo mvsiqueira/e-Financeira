@@ -1,6 +1,0 @@
-C:\Users\mvsiq\Downloads\BNDES\e-financeira\ExemploCriptografiaLoteEFinanceira\LoteSincrono\bin\Debug\ExemploCriptografiaLoteEFinanceira.exe
-C:\Users\mvsiq\Downloads\BNDES\e-financeira\ExemploCriptografiaLoteEFinanceira\LoteSincrono\bin\Debug\ExemploCriptografiaLoteEFinanceira.pdb
-C:\Users\mvsiq\Downloads\BNDES\e-financeira\ExemploCriptografiaLoteEFinanceira\LoteSincrono\obj\Debug\ExemploCriptografiaLoteSincrono.csproj.AssemblyReference.cache
-C:\Users\mvsiq\Downloads\BNDES\e-financeira\ExemploCriptografiaLoteEFinanceira\LoteSincrono\obj\Debug\ExemploCriptografiaLoteSincrono.csproj.CoreCompileInputs.cache
-C:\Users\mvsiq\Downloads\BNDES\e-financeira\ExemploCriptografiaLoteEFinanceira\LoteSincrono\obj\Debug\ExemploCriptografiaLoteEFinanceira.exe
-C:\Users\mvsiq\Downloads\BNDES\e-financeira\ExemploCriptografiaLoteEFinanceira\LoteSincrono\obj\Debug\ExemploCriptografiaLoteEFinanceira.pdb
