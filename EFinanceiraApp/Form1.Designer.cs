@@ -95,8 +95,8 @@ partial class Form1
 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
-        ClientSize = new Size(980, 720);
-        MinimumSize = new Size(920, 700);
+        ClientSize = new Size(980, 660);
+        MinimumSize = new Size(920, 620);
         StartPosition = FormStartPosition.CenterScreen;
         Text = "Assinador e Criptografador e-Financeira";
 
@@ -193,7 +193,7 @@ partial class Form1
         txtCertificadoAssinatura.ReadOnly = true;
 
         btnSelecionarCertificadoAssinatura.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-        btnSelecionarCertificadoAssinatura.Text = "Escolher instalado";
+        btnSelecionarCertificadoAssinatura.Text = "Selecionar certificado";
         btnSelecionarCertificadoAssinatura.Click += BtnSelecionarCertificadoAssinatura_Click;
 
         lblXmlAssinado.Anchor = AnchorStyles.Left;
@@ -240,7 +240,7 @@ partial class Form1
 
         lblCertificadoCriptografia.Anchor = AnchorStyles.Left;
         lblCertificadoCriptografia.AutoSize = true;
-        lblCertificadoCriptografia.Text = "Arquivo do certificado";
+        lblCertificadoCriptografia.Text = "Certificado e-Financeira";
 
         txtCertificadoCriptografia.Anchor = AnchorStyles.Left | AnchorStyles.Right;
         txtCertificadoCriptografia.ReadOnly = true;
@@ -280,17 +280,23 @@ partial class Form1
         layoutLogHeader.ColumnStyles.Add(new ColumnStyle(SizeType.AutoSize));
         layoutLogHeader.Controls.Add(lblStatus, 0, 0);
         layoutLogHeader.Controls.Add(btnLimparLog, 1, 0);
-        layoutLogHeader.Dock = DockStyle.Fill;
-        layoutLogHeader.Margin = new Padding(0, 4, 0, 0);
+        layoutLogHeader.AutoSize = true;
+        layoutLogHeader.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+        layoutLogHeader.Dock = DockStyle.Top;
+        layoutLogHeader.Margin = new Padding(0);
+        layoutLogHeader.Padding = new Padding(0);
         layoutLogHeader.RowCount = 1;
         layoutLogHeader.RowStyles.Add(new RowStyle(SizeType.AutoSize));
 
         lblStatus.Anchor = AnchorStyles.Left;
         lblStatus.AutoSize = true;
+        lblStatus.Margin = new Padding(0);
         lblStatus.Text = "Status";
 
         btnLimparLog.Anchor = AnchorStyles.Right;
-        btnLimparLog.AutoSize = true;
+        btnLimparLog.AutoSize = false;
+        btnLimparLog.Margin = new Padding(0);
+        btnLimparLog.Size = new Size(84, 28);
         btnLimparLog.Text = "Limpar log";
         btnLimparLog.Click += BtnLimparLog_Click;
 
